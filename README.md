@@ -1,6 +1,6 @@
-# kp-vscode-fileinfo README
+# vscode-fileinfo README
 
-This is the README for your extension "kp-vscode-fileinfo". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "vscode-fileinfo". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

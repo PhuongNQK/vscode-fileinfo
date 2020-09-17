@@ -1,8 +1,10 @@
 {
-    "name": "kp-vscode-fileinfo",
+    "name": "vscode-fileinfo",
     "displayName": "File Info",
-    "description": "",
+    "description": "Show file information of the currently-selected file in the status bar",
     "version": "0.0.1",
+    "publisher": "PhuongNQK",
+    "repository": "https://github.com/PhuongNQK/vscode-fileinfo",
     "engines": {
         "vscode": "^1.49.0"
     },
@@ -10,14 +12,14 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:kp-vscode-fileinfo.helloWorld"
+        "onCommand:vscode-fileinfo.show"
     ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "kp-vscode-fileinfo.helloWorld",
-                "title": "Hello World"
+                "command": "vscode-fileinfo.show",
+                "title": "Show File Info"
             }
         ]
     },
